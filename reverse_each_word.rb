@@ -4,6 +4,8 @@ def reverse_each_word(sentence)
   newWords = []
   words.each do |i|
     n = i.reverse
+  end
     newWords.push(i)
+    
   return words
 end
