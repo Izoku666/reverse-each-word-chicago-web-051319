@@ -1,4 +1,5 @@
-def reverse_each_word(word)
+def reverse_each_word(sentence)
   str = "Output"
-  return str
+  words = sentence.split(" ")
+  return words
 end
